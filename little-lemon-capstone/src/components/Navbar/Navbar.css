@@ -1,0 +1,44 @@
+.app_nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(210, 210, 210, 0.65);
+  backdrop-filter: blur(4px);
+  --webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: fixed;
+  z-index: 2;
+  font-family: "Markazi Text", serif;
+}
+
+.app_nav_logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app_nav_links {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+.link {
+  color: #495e57;
+  text-decoration: none;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: gray;
+}

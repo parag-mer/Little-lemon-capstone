@@ -44,7 +44,6 @@
 
 .about_image {
   width: 273px;
-  height: 338px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%;
@@ -59,4 +58,23 @@
 .about_header_text {
   font-family: "Markazi Text", serif;
   font-size: 64px;
+}
+
+@media screen and (max-width: 1020px) {
+  .about_image {
+    width: 150px;
+  }
+
+  .about_image_box {
+    display: block;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about_detail_box {
+    width: 80%;
+    text-align: center;
+  }
 }

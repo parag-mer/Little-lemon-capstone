@@ -21,8 +21,8 @@ export const About = () => {
           <p className="about_description">{aboutData.description}</p>
         </div>
         <div className="about_image_box">
-          <div className="about_image">
-            <img src={logo} alt="header image" width={200} />
+          <div>
+            <img src={logo} alt="header image" width={200} className="about_image"/>
           </div>
         </div>
       </div>

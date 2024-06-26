@@ -31,7 +31,11 @@ export const Footer = () => {
   return (
     <div className="app_footer app_container app_wrapper">
       <footer className="footer_section">
-        <img src={footerImage} alt="footer_image" width={250} />
+        <img
+          src={footerImage}
+          alt="footer_image"
+          className="footer_image"
+        />
         <FooterItem sectionName="Navigation" list={navigation} />
         <FooterItem sectionName="Contact" list={contact} />
         <FooterItem sectionName="Social" list={socialMedia} />

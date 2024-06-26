@@ -6,8 +6,8 @@
   color: #495e57;
 }
 
-.app_footer{
-    background-color: #EDEFEE;
+.app_footer {
+  background-color: #edefee;
 }
 
 .footer_item {
@@ -36,6 +36,10 @@
   color: #333333;
 }
 
+.footer_image {
+  width: 250px;
+}
+
 @media screen and (max-width: 580px) {
   footer {
     flex-direction: column;
@@ -53,5 +57,9 @@
 
   .footer_item_names > li > a {
     font-size: 18px;
+  }
+
+  .footer_image {
+    width: 150px;
   }
 }

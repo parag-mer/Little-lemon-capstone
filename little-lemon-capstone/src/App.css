@@ -21,6 +21,31 @@
   align-items: center;
 }
 
+.confirm_text {
+  color: #495e57;
+}
+
+.loader {
+  margin-top: 20px;
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #495e57;
+  border-bottom: 6px solid #495e57;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media screen and (max-width: 450px) {
   .app__wrapper {
     padding: 4rem 1rem 2rem;

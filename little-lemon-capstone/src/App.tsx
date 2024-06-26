@@ -8,6 +8,7 @@ import { About } from "./components/About/About";
 import { Footer } from "./components/Footer/Footer";
 import { Reservations } from "./components/Reservations/Reservations";
 import { Navbar } from "./components/Navbar/Navbar";
+import { Confirmation } from "./components/Confirmation/Confirmation";
 
 const App = () => {
   return (
@@ -48,6 +49,16 @@ const App = () => {
           <>
             <Navbar />
             <Reservations />
+            <Footer />
+          </>
+        }
+      />
+      <Route
+        path="ConfirmedBooking"
+        element={
+          <>
+            <Navbar />
+            <Confirmation />
             <Footer />
           </>
         }
